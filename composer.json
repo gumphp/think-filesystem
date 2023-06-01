@@ -1,0 +1,28 @@
+{
+  "name": "gumphp/think-filesystem",
+  "type": "library",
+  "require": {
+    "league/flysystem-aws-s3-v3": "^v2.5",
+    "topthink/framework": "^v6.1",
+    "topthink/think-filesystem": "^v2.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "gumphp\\filesystem\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "gumphp",
+      "email": "gumphp@qq.com"
+    }
+  ],
+  "extra": {
+    "think": {
+      "services": [
+        "\\gumphp\\filesystem\\Service"
+      ]
+    }
+  }
+}
