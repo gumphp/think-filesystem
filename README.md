@@ -1,18 +1,5 @@
+
 ## 安装
-添加如下内容到 `composer.json` 文件
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/gumphp/think-filesystem"
-        }
-    ]
-}
-```
-
-执行安装命令
-
 > composer require gumphp/think-filesystem:dev-master
 
 ## 配置
